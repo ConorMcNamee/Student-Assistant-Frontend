@@ -27,9 +27,9 @@ const Assignments = () => {
 
   console.log(data);
   return(
-    <div className="assignment-container">
-      <div className="assignment-list">
-        <div className="assignment-list-item">
+    <div className="AssignmentsContainer">
+      <div className="AssignmentsList">
+        <div className="AssignmentsListItems">
           {
             data.map((assignment) => <div key={assignment.assignment_id} draggable="true" className="assignment-list-item-container">
                 <p contentEditable="true" className="assignment">{assignment.assignment_title}</p>

@@ -12,4 +12,14 @@ body{
 
 .App{
     height:100vh; 
+    display: flex;
+}
+
+.SidebarContainer{
+    display: flex;
+    width: 10%;
+}
+
+.Content{
+    width: 90%;
 }

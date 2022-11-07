@@ -17,7 +17,6 @@ const AssignmentForm = () => {
             assignment_title: assignmentTitle,
           }
         })
-        alert(assignmentTitle);
       }
     
     const handleChange = (e: React.FormEvent<HTMLInputElement>):void => {
